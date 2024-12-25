@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pembagian halaman dengan iframe</title>
+  </head>
+  <body>
+    <!-- bagian atas -->
+    <div class="top" name="atas">
+      <iframe src="p1.html" style="width: 100%" frameborder="0"></iframe>
+    </div>
+
+    <!-- bagian bawah -->
+    <div class="bottom" style="display: flex">
+      <div class="left">
+        <iframe src="p7.html" style="flex: 1; height: 50vh; width: 100vh" name="kiri" frameborder="0"></iframe>
+      </div>
+      <div class="right">
+        <iframe src="p5.html" style="flex: 2; height: 50vh; width: 100vh" name="kanan" frameborder="0"></iframe>
+      </div>
+    </div>
+  </body>
+</html>
